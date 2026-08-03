@@ -1,13 +1,13 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
+  --text: #50545f;
+  --text-h: #122016;
+  --bg: #f2efe8;
+  --border: rgba(18, 32, 22, 0.12);
   --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
+  --accent: #0e5f3b;
+  --accent-bg: rgba(14, 95, 59, 0.1);
+  --accent-border: rgba(14, 95, 59, 0.35);
+  --social-bg: rgba(255, 255, 255, 0.7);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -32,15 +32,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
+    --text: #c7c9cf;
+    --text-h: #f5f2ea;
+    --bg: #101513;
+    --border: rgba(255, 255, 255, 0.08);
     --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
+    --accent: #8fd2b0;
+    --accent-bg: rgba(143, 210, 176, 0.12);
+    --accent-border: rgba(143, 210, 176, 0.34);
+    --social-bg: rgba(255, 255, 255, 0.06);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
@@ -58,8 +58,9 @@ body {
   min-height: 100svh;
   box-sizing: border-box;
   background:
-    radial-gradient(circle at top left, rgba(170, 59, 255, 0.08), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.04), transparent 30%),
+    radial-gradient(circle at top left, rgba(14, 95, 59, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(202, 162, 58, 0.12), transparent 22%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.3), transparent 40%),
     var(--bg);
 }
 
@@ -74,6 +75,7 @@ h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
   margin: 32px 0;
+
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
@@ -93,7 +95,7 @@ p {
 }
 
 code,
-.counter {
+button {
   font-family: var(--mono);
   display: inline-flex;
   border-radius: 4px;
