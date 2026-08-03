@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Oak Desk Lamp",
+    "category": "Home",
+    "description": "A warm wood-and-brass desk lamp for study corners, workspaces, and reading nooks.",
+    "price": "$34",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Canvas Tote",
+    "category": "Lifestyle",
+    "description": "A durable everyday tote with a clean silhouette and enough space for books or groceries.",
+    "price": "$19",
+    "rating": 4.6
+  },
+  {
+    "id": 3,
+    "name": "Studio Bottle",
+    "category": "Travel",
+    "description": "A matte insulated bottle that keeps drinks cold or hot while staying easy to carry.",
+    "price": "$22",
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "name": "Desk Planner",
+    "category": "Stationery",
+    "description": "A simple weekly planner for goals, tasks, and a clear overview of your day.",
+    "price": "$15",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Wireless Earbuds",
+    "category": "Tech",
+    "description": "Compact earbuds with a charging case, clear audio, and a travel-friendly design.",
+    "price": "$59",
+    "rating": 4.5
+  },
+  {
+    "id": 6,
+    "name": "Scented Candle",
+    "category": "Decor",
+    "description": "A soft amber candle that adds a calm finish to shelves, desks, and side tables.",
+    "price": "$18",
+    "rating": 4.8
+  }
+]
