@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <a href="#notices">Notices</a>
             <a href="#resources">Resources</a>
             <a href="#schedule">Schedule</a>
+            <Link to="/seat-plan">Seat Plan</Link>
           </nav>
         </header>
 
